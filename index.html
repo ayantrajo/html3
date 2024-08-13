@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            min-height: 600px;
+        }
+
+        @media(min-width: 768px) {
+            .container {
+                flex-direction: row;
+            }
+        }
+
+        .sidebar {
+            background: #4db9a7;
+            color: #fff;
+            padding: 20px;
+            box-shadow: inset 2px 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 100%;
+        }
+
+        @media(min-width: 768px) {
+            .sidebar {
+                width: 30%;
+            }
+        }
+
+        .sidebar img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #4db9a7;
+            margin-bottom: 20px;
+        }
+
+        .sidebar h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #fff;
+            font-family: 'Georgia', serif;
+            margin-bottom: 20px;
+        }
+
+        .sidebar .contact-info {
+            margin-bottom: 20px; 
+        }
+
+        .sidebar .contact-info p {
+            margin: 10px 0; 
+            font-size: 1em;
+            padding: 5px 0;
+        }
+
+        .sidebar .contact-info i {
+            margin-right: 10px;
+            color: #4db9a7;
+        }
+
+        .sidebar .social-links a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .sidebar .social-links a:hover {
+            color: #4db9a7;
+        }
+
+        .content {
+            padding: 20px;
+            width: 100%;
+        }
+
+        @media(min-width: 768px) {
+            .content {
+                width: 70%;
+            }
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #009688;
+            padding-bottom: 5px;
+            color: #4db9a7;
+            font-size: 1.8em;
+            font-family: 'Georgia', serif;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section h2 i {
+            margin-right: 10px;
+            color: #4db9a7;
+            font-size: 1.5em;
+        }
+
+        .section p {
+            margin: 5px 0;
+            line-height: 1.8;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .section .date {
+            font-size: 0.9em;
+            color: #777;
+            margin-left: auto;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 12px 20px;
+            color: #fff;
+            background-color: #4db9a7;
+            text-align: center;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #4db9a7;
+            transform: translateY(-2px);
+        }
+
+        .profile-header {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile-header">
+                <img src="image/453937881_1153484329062846_6453346454849890337_n.png" alt="Ian">
+                <h1>Ian Tradio</h1>
+                <div class="contact-info">
+                    <p><i class="fa fa-map-marker"></i> Tulay, VSP, Minglanilla, Cebu</p>
+                    <p><i class="fa fa-envelope"></i> ayantrajo@gmail.com</p>
+                    <p><i class="fa fa-phone"></i> 995 - 398 - 8261</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com/conejosayan"><i class="fa fa-instagram"></i></a> 
+                    <a href="https://twitter.com/iantradio"><i class="fa fa-twitter"></i></a>  
+                    <a href="https://linkedin.com/in/122502"><i class="fa fa-linkedin"></i></a>  
+                    <a href="https://facebook.com/AyanTrajo"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2><i class="fa fa-bullseye"></i> Objectives</h2>
+                <p>To enhance my skills and experience in a dynamic organization that values creativity and collaboration. Open to further training and development to enhance professional skills. Willing to engage in challenging projects and collaborate with a diverse team.</p>
+            </div>
+
+            <div class="section">
+                <h2><i class="fa fa-graduation-cap"></i> Education</h2>
+                <p>Elementary Education Graduate <span class="date">June 2015</span></p>
+                <p>Secondary Education Graduate <span class="date">June 2018</span></p>
+                <p>Senior High Education Graduate <span class="date">June 2022</span></p>
+            </div>
+
+            <div class="section">
+                <h2><i class="fa fa-star"></i> Skills</h2>
+                <p>Creativity</p>
+                <p>Active Listening</p>
+                <p>Teamwork</p>
+                <p>Customer Service</p>
+            </div>
+
+            <div class="section">
+                <h2><i class="fa fa-quote-left"></i> Quotes</h2>
+                <p>Remember that binary code is made up of more than just 0 and 1, there's always room for change.</p>
+            </div>
+
+            <div class="button-container">   
+                    <button>Download Resume</button>
+           
+                <button id="cancel-button">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
